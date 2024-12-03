@@ -1,0 +1,14 @@
+.active {
+    font-weight: bold;
+    transform: scale(1.1);
+    filter: brightness(1.5);
+  }
+  #mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+#mobile-menu.open {
+  max-height: 500px; /* Set this to a value that comfortably fits your menu items */
+}
